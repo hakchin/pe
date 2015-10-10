@@ -28,7 +28,7 @@ exclude:
 
 # same for all
 host: 127.0.0.1
-feedback_email: tomjohnson1492@gmail.com
+feedback_email: hakchin@gmail.com
 sidebar_accordion: true
 markdown: redcarpet
 print: false
