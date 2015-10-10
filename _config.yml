@@ -1,7 +1,7 @@
 ## This content is duplicated here from configs/config_designers.yml because I'm building this site through Github Pages, and Github Pages just looks for the _config.yml file in the root directory to create the build.
 # project definitions
 project: doc_designers
-audience: designers
+audience: designersjkjkljkjj
 product: all
 platform: all
 version: all
@@ -15,7 +15,7 @@ github_editme_path: tomjohnson1492/documentation-theme-jekyll/blob/gh-pages
 # don't use a slash before or after the above path. here's how this url gets written out in page.html: https://github.com/{{site.github_editme_path}}{{page.url | replace: '.html', '.md'}}
 # variables
 
-sidebar_tagline: designersiiiiiii
+sidebar_tagline: designers
 sidebar_version: version 3.0
 
 port: 4001
