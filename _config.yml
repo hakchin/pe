@@ -6,8 +6,8 @@ product: all
 platform: all
 version: all
 destination: ../doc_designers
-topnav_title: Jekyll Documentation Theme
-homepage_title: Jekyll Documentation Theme &mdash; Designers
+topnav_title: 학진의 기술사 지식 정리
+homepage_title: 학진의 기술사 지식 정리
 site_title: Jekyll Documentation Theme &mdash; Designers
 disqus_shortname: idrbwjekyll
 google_analytics: UA-66296557-1
