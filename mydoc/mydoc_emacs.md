@@ -1,9 +1,11 @@
 ---
-title: Introduction
-tags: [getting_started]
+title: emacs
 audience: field engineers, clients
-type: first_page
-homepage: true
+tags: [tool]
+keywords: "tool, emacs"
+last_updated: "December 25, 2015"
+summary: "blur blur blur"
+published: true
 ---
 
 ## Reference Sites

@@ -1,9 +1,11 @@
 ---
 title: Markdown
-tags: [tool]
 audience: field engineers, clients
-type: first_page
-homepage: true
+tags: [tool]
+keywords: "syntax, markdown"
+last_updated: "December 25, 2015"
+summary: "blur blur blur"
+published: true
 ---
 
 ## Markdown Syntax
@@ -129,6 +131,43 @@ set clipboard=unnamed
 ```
 
 ***
+
+## R Markdown
+
+### Getting Started
+* [Markdown by Hakchin](https://hakchin.wordpress.com/2015/12/04/markdown)
+* [An Example R Markdown](http://www.statpower.net/Content/310/R%20Stuff/SampleMarkdown.html)
+* [http://blog.naver.com/edgelab/220218470395](http://blog.naver.com/edgelab/220218470395)
+* [An Introduction to R Markdown](http://rpubs.com/mansun_kuo/24330)
+
+### markdown cheatsheet
+
+* [Markdown quick reference by wordpress](https://en.support.wordpress.com/markdown-quick-reference/)
+* [stackedit](https://stackedit.io/editor)
+* [Mastering Markdown](https://guides.github.com/features/mastering-markdown)
+* [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Some examples of using \\(\LaTeX\\) in R Markdown documents](http://www.calvin.edu/~rpruim/courses/m343/F12/RStudio/LatexExamples.html)
+
+
+### markdown at atom
+
+### preview
+
+ctrl-shift-m.
+
+### R Markdown 따라하기
+
+### 참조 문서
+* [Serve Jekyll Websites with servr and knitr](http://yihui.name/knitr-jekyll/2014/09/jekyll-with-knitr.html)
+* [Wordpress에서 Jekyll로…](http://wsyang.com//r/2015/07/26/Goodbye-wordpress-hellow-Jekyll/)
+
+### R 화면에서
+
+> setwd("/Users/sn2ro/OneDrive/git-c/hakchin.github.io")
+> servr::jekyll(command = '/Users/sn2ro/.rbenv/shims/jekyll build --watch')
+
+
+
 ## Rmarkdown
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
