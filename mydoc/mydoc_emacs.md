@@ -1,6 +1,5 @@
 ---
 title: emacs
-audience: field engineers, clients
 tags: [tool]
 keywords: "tool, emacs"
 last_updated: "December 25, 2015"

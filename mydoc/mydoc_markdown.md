@@ -1,6 +1,5 @@
 ---
 title: Markdown
-audience: field engineers, clients
 tags: [tool]
 keywords: "syntax, markdown"
 last_updated: "December 25, 2015"
@@ -451,6 +450,78 @@ $$ \frac{1}{n^{2}} $$
 The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become \\[ ... \\] and \\( ... \\) for inline and block maths respectively.
 
 
+## markdown-uml
+### Reference Sites
+* Online Editor
+  * [PlantText](http://www.planttext.com/planttext)
+  * [PlantUML homepage](http://plantuml.sourceforge.net/)
+* 참고 사이트
+  * [UML (Unified Modeling Language)](http://blog.naver.com/hermet/220120846602)
+  * [UML이란?](http://onecellboy.tistory.com/334)
+
+
+### UML Diagram의 종류
+* 구조적(Structural)
+  * Class Diagram
+  * Component Diagram
+  * Deployment Diagram
+
+* 행위적(Behavioral)
+  * Use Case Diagram
+  * Sequence Diagram
+  * Collaboration Diagram
+  * Statechart Diagram
+  * Activity Diagram
+
+<img src="https://docs.google.com/drawings/d/1sHxXx348RH4OHnhrOPMJJPgERLhGG39cBz9hKTQ85p8/pub?w=960&amp;h=514">
+
+### plantuml
+
+#### plantuml-basic
+
+https://gist.github.com/hakchin/a29ed23af7aa58a6764c
+
+![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
+
+
+#### plantuml-class
+
+{% gist hakchin/809a33ae61a4d82b0af7 %}
+
+![](http://uml.mvnsearch.org/gist/809a33ae61a4d82b0af7)
+
+#### 관계 (Relationship)
+
+* Association
+* Generalization
+* Dependency
+* Realization
+
+
+#### plantuml-component
+
+{% gist hakchin/1354c4215962341b7afa %}
+
+![](http://uml.mvnsearch.org/gist/1354c4215962341b7afa)
+
+
+
+#### plantuml-sequence
+
+{% gist hakchin/0c6796799c1c9a50ae0e %}
+![http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e](http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e)
+
+
+
+#### Trouble Shooting
+
+아래 그림과 같이 Graphviz 관련 에러가 났을 경우에
+
+<img src="https://docs.google.com/drawings/d/1-5NBjkmTGIbAb0zjyOWbauo_quEVLTOa7OxZ2vOdlbA/pub?w=305&amp;h=228">
+
+
+다음 명령어로 Graphviz을 설치하여 해결하였다.
+* sudo apt-get install graphviz
 
 ---
 
