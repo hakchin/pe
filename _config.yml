@@ -8,17 +8,17 @@ platform: all
 version: all
 output: web
 destination: ../doc_outputs/mydoc/designers
-topnav_title: Jekyll Documentation Theme
+topnav_title: Hakchin's Bookshelf
 homepage_title: Jekyll doc theme for designers
-site_title: Jekyll theme for designers
+site_title: Hakchin's Bookshelf
 project_folder: mydoc
 company_name: Your company
 footer_image_location: ../common_images/company_logo.png
 github_editme_path: hakchin/pe/blob/gh-pages
-disqus_shortname: idrbwjekyll
+#disqus_shortname: idrbwjekyll
 # variables
 
-sidebar_tagline: Designers
+sidebar_tagline: Bookshelf
 sidebar_version: Version 4.0
 theme_file: theme-blue.css
 pdf_file_name: mydoc_designers_pdf.pdf

@@ -60,8 +60,8 @@ entries:
       version: all
       output: web, pdf
 
-    - title: Supported features
-      url: /mydoc/mydoc_supported_features.html
+    - title: Swift
+      url: /mydoc/mydoc_swift.html
       audience: writers, designers
       platform: all
       product: all
