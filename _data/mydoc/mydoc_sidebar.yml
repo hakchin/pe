@@ -84,13 +84,61 @@ entries:
       version: all
       output: web
 
-  - title: Get started
+  - title: 정보시스템감리사
     audience: writers, designers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
+    - title: Introduction
+      url: /mydoc/mydoc_iss_introduction.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 1. 감리및사업관리
+      url: /mydoc/mydoc_iss_audit.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 2. 소프트웨어공학
+      url: /mydoc/mydoc_iss_swe.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 3. 데이터베이스
+      url: /mydoc/mydoc_iss_database.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 4. 시스템아키텍처
+      url: /mydoc/mydoc_iss_system_architecture.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
+    - title: 5. 보안
+      url: /mydoc/mydoc_iss_security.html
+      audience: writers, designers
+      platform: all
+      product: all
+      version: all
+      output: web, pdf
+
     - title: 1. Build the default project
       url: /mydoc/mydoc_getting_started.html
       audience: writers, designers
