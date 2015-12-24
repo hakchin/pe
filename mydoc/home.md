@@ -8,14 +8,6 @@ homepage: true
 
 ## Overview 
 
-나는 김학진입니다. \\(abcdefg\\) 어쩌구 $$abc$$
-
-$$a^2 + b^2 = c^2$$
-
-{% gist hakchin/a29ed23af7aa58a6764c %}
-
-![http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
-
 This site provides documentation, training, and other notes for the Jekyll Documentation theme. There's a lot of information about how to do a variety of things here, and it's not all unique to this theme. But by and large, understanding how to do things in Jekyll depends on how your theme is coded. As a result, these additional details are provided.
 
 The instructions here are geared towards technical writers working on documentation. You may have a team of one or more technical writers working on documentation for multiple projects. You can use this same theme to author all of your documentation for each of your products. The theme is set up to push out documentation for multiple projects all from the same source. You can also share content across projects.
