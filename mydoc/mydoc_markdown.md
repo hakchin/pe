@@ -31,7 +31,7 @@ published: true
 
 {% gist hakchin/a29ed23af7aa58a6764c %}
 
-![http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
+![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
 
 
 
