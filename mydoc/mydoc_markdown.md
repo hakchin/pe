@@ -9,15 +9,6 @@ published: true
 
 ## Markdown Syntax
 
-나는 김학진입니다. \\(abcdefg\\) 어쩌구 $$abc$$
-
-$$a^2 + b^2 = c^2$$
-
-{% gist hakchin/a29ed23af7aa58a6764c %}
-
-![http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
-
-
 ### External Image
 ![](http://logdown.com/images/logo.png)
 
@@ -28,10 +19,13 @@ $$a^2 + b^2 = c^2$$
 
 ### External Video
 
-* youtube in wordpress.com
+* 아래 그림을 보면 오른쪽 마우스 클릭하여 Copy Embed Code 선택하여 markdown 에 붙여 넣기 하면 youtube 동영상이 삽입된다.
 
-[youtube https://www.youtube.com/watch?v=dj-x8_7VULc&amp;w=854&amp;h=480]
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/44489836@N06/23592539839/in/album-72157661553967886/" title="youtube_right_click"><img src="https://farm6.staticflickr.com/5744/23592539839_3ec335fd27_z.jpg" width="541" height="287" alt="youtube_right_click"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+* 삽입된 youtube 동영상
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/dj-x8_7VULc" frameborder="0" allowfullscreen></iframe>
 
 ### plantuml
 
@@ -79,6 +73,32 @@ The answser is \\(a^2 + b^2 = c^2\\).
 
 $$ \dfrac{a}{b} $$
 
+#### mathjax example
+
+[MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
+
+### Configuration
+
+To enable MathJax support be sure Kramdown is your Markdown flavor of choice and MathJax is set to true in your `_config.yml` file.
+
+```
+markdown: kramdown
+mathjax: true
+```
+
+```
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering:
+$$ \frac{1}{n^{2}} $$
+```
+
+Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering:
+
+$$ \frac{1}{n^{2}} $$
+
+The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become \\[ ... \\] and \\( ... \\) for inline and block maths respectively.
+
+
+
 ### Table Example
 
 | Tables | Are | Cool |
@@ -110,28 +130,85 @@ Achievable: 성취 가능해야 한다.
 Realistic: 실현 가능해야 한다.
 Timely: 시기 적절하게 기한을 정한다.
 
-### External Image Link Example by Hakchin
-![](http://img.etnews.com/ict/2013/term/image_020130329141422.jpg)
 
-### 수식 Example by Hakchin
+## markdown-uml
+### Reference Sites
+* Online Editor
+  * [PlantText](http://www.planttext.com/planttext)
+  * [PlantUML homepage](http://plantuml.sourceforge.net/)
+* 참고 사이트
+  * [UML (Unified Modeling Language)](http://blog.naver.com/hermet/220120846602)
+  * [UML이란?](http://onecellboy.tistory.com/334)
 
-$$ C = E_K(P) $$
 
-$$ P = D_K(C) $$
-* P: Plain text, 평문
-* E: Encryption
-* C: Cryptotext, 암호문
-* D: Decryption
+### UML Diagram의 종류
+* 구조적(Structural)
+  * Class Diagram
+  * Component Diagram
+  * Deployment Diagram
 
-### snippet Example by Hakchin
-```
-For MacVim and Windows Gvim, simply add the following to your ~/.vimrc:
-set clipboard=unnamed
-```
+* 행위적(Behavioral)
+  * Use Case Diagram
+  * Sequence Diagram
+  * Collaboration Diagram
+  * Statechart Diagram
+  * Activity Diagram
+
+<img src="https://docs.google.com/drawings/d/1sHxXx348RH4OHnhrOPMJJPgERLhGG39cBz9hKTQ85p8/pub?w=960&amp;h=514">
+
+### plantuml
+
+#### plantuml-basic
+
+https://gist.github.com/hakchin/a29ed23af7aa58a6764c
+
+![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
+
+
+#### plantuml-class
+
+{% gist hakchin/809a33ae61a4d82b0af7 %}
+
+![](http://uml.mvnsearch.org/gist/809a33ae61a4d82b0af7)
+
+#### 관계 (Relationship)
+
+* Association
+* Generalization
+* Dependency
+* Realization
+
+
+#### plantuml-component
+
+{% gist hakchin/1354c4215962341b7afa %}
+
+![](http://uml.mvnsearch.org/gist/1354c4215962341b7afa)
+
+
+
+#### plantuml-sequence
+
+{% gist hakchin/0c6796799c1c9a50ae0e %}
+![http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e](http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e)
+
+
+
+#### Trouble Shooting
+
+아래 그림과 같이 Graphviz 관련 에러가 났을 경우에
+
+<img src="https://docs.google.com/drawings/d/1-5NBjkmTGIbAb0zjyOWbauo_quEVLTOa7OxZ2vOdlbA/pub?w=305&amp;h=228">
+
+
+다음 명령어로 Graphviz을 설치하여 해결하였다.
+* sudo apt-get install graphviz
 
 ***
 
 ## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 ### Getting Started
 * [Markdown by Hakchin](https://hakchin.wordpress.com/2015/12/04/markdown)
@@ -164,11 +241,6 @@ ctrl-shift-m.
 
 > setwd("/Users/sn2ro/OneDrive/git-c/hakchin.github.io")
 > servr::jekyll(command = '/Users/sn2ro/.rbenv/shims/jekyll build --watch')
-
-
-
-## Rmarkdown
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
@@ -425,103 +497,7 @@ This is from http://stackoverflow.com/questions/4823468/store-comments-in-markdo
 ```
 
 ***
-## mathjax example
 
-[MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
-
-### Usage
-
-To enable MathJax support be sure Kramdown is your Markdown flavor of choice and MathJax is set to true in your `_config.yml` file.
-
-```
-markdown: kramdown
-mathjax: true
-```
-
-```
-Here is an example MathJax inline rendering \( 1/x^{2} \), and here is a block rendering:
-\[ \frac{1}{n^{2}} \]
-```
-
-Here is an example MathJax inline rendering $$ 1/x^{2} $$, and here is a block rendering:
-
-$$ \frac{1}{n^{2}} $$
-
-The only thing to look out for is the escaping of the backslash when using markdown, so the delimiters become \\[ ... \\] and \\( ... \\) for inline and block maths respectively.
-
-
-## markdown-uml
-### Reference Sites
-* Online Editor
-  * [PlantText](http://www.planttext.com/planttext)
-  * [PlantUML homepage](http://plantuml.sourceforge.net/)
-* 참고 사이트
-  * [UML (Unified Modeling Language)](http://blog.naver.com/hermet/220120846602)
-  * [UML이란?](http://onecellboy.tistory.com/334)
-
-
-### UML Diagram의 종류
-* 구조적(Structural)
-  * Class Diagram
-  * Component Diagram
-  * Deployment Diagram
-
-* 행위적(Behavioral)
-  * Use Case Diagram
-  * Sequence Diagram
-  * Collaboration Diagram
-  * Statechart Diagram
-  * Activity Diagram
-
-<img src="https://docs.google.com/drawings/d/1sHxXx348RH4OHnhrOPMJJPgERLhGG39cBz9hKTQ85p8/pub?w=960&amp;h=514">
-
-### plantuml
-
-#### plantuml-basic
-
-https://gist.github.com/hakchin/a29ed23af7aa58a6764c
-
-![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
-
-
-#### plantuml-class
-
-{% gist hakchin/809a33ae61a4d82b0af7 %}
-
-![](http://uml.mvnsearch.org/gist/809a33ae61a4d82b0af7)
-
-#### 관계 (Relationship)
-
-* Association
-* Generalization
-* Dependency
-* Realization
-
-
-#### plantuml-component
-
-{% gist hakchin/1354c4215962341b7afa %}
-
-![](http://uml.mvnsearch.org/gist/1354c4215962341b7afa)
-
-
-
-#### plantuml-sequence
-
-{% gist hakchin/0c6796799c1c9a50ae0e %}
-![http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e](http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e)
-
-
-
-#### Trouble Shooting
-
-아래 그림과 같이 Graphviz 관련 에러가 났을 경우에
-
-<img src="https://docs.google.com/drawings/d/1-5NBjkmTGIbAb0zjyOWbauo_quEVLTOa7OxZ2vOdlbA/pub?w=305&amp;h=228">
-
-
-다음 명령어로 Graphviz을 설치하여 해결하였다.
-* sudo apt-get install graphviz
 
 ---
 
@@ -543,3 +519,4 @@ If you would like to download this help file as a PDF, you can do so here. The P
 <a target="_blank" class="noCrossRef" href="files/{{site.pdf_file_name}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
 The PDF contains a timestamp in the header indicating when it was last generated. 
+
