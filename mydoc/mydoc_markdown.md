@@ -7,6 +7,9 @@ summary: "blur blur blur"
 published: true
 ---
 
+## Useful Sites
+* [Daringfireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
+
 ## Markdown Syntax
 
 ### External Image
