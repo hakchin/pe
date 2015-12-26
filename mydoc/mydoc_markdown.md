@@ -27,14 +27,6 @@ published: true
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/dj-x8_7VULc" frameborder="0" allowfullscreen></iframe>
 
-### plantuml
-
-{% gist hakchin/a29ed23af7aa58a6764c %}
-
-![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
-
-
-
 ### Bloging with code snippet:
 
 `inline code`
@@ -158,18 +150,19 @@ Timely: 시기 적절하게 기한을 정한다.
 
 ### plantuml
 
-#### plantuml-basic
-
-https://gist.github.com/hakchin/a29ed23af7aa58a6764c
-
-![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
-
-
 #### plantuml-class
 
-{% gist hakchin/809a33ae61a4d82b0af7 %}
+{% gist hakchin/4ac3a92da75543b5daac %}
 
-![](http://uml.mvnsearch.org/gist/809a33ae61a4d82b0af7)
+![](http://uml.mvnsearch.org/gist/4ac3a92da75543b5daac)
+
+{% gist hakchin/6e753085ca869f8806c0 %}
+
+![](http://uml.mvnsearch.org/gist/6e753085ca869f8806c0)
+
+{% gist hakchin/21575ff0f534fc065b66 %}
+
+![](http://uml.mvnsearch.org/gist/21575ff0f534fc065b66)
 
 #### 관계 (Relationship)
 
@@ -177,6 +170,13 @@ https://gist.github.com/hakchin/a29ed23af7aa58a6764c
 * Generalization
 * Dependency
 * Realization
+
+
+#### plantuml-sequence
+
+{% gist hakchin/a29ed23af7aa58a6764c %}
+
+![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
 
 
 #### plantuml-component
@@ -260,7 +260,7 @@ summary(cars)
 
 You can also embed plots, for example:
 
-![unnamed-chunk-2-1.png](http://user-image.logdown.io/user/14781/blog/13978/post/303787/QrcGNegSRX6KfwiGrtFU_unnamed-chunk-2-1.png)
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/44489836@N06/23864936192/in/album-72157661553967886/" title="QrcGNegSRX6KfwiGrtFU_unnamed-chunk-2-1"><img src="https://farm2.staticflickr.com/1641/23864936192_7bf5422877_z.jpg" width="504" height="504" alt="QrcGNegSRX6KfwiGrtFU_unnamed-chunk-2-1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
