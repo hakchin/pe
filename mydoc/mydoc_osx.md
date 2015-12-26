@@ -123,4 +123,5 @@ ifdown eth0
 
 
 ## Utility
-* [http://byobu.co/](http://byobu.co/)
+
+* [Eight Terminal Utilities Every OS X Command Line User Should Know](http://lifehacker.com/eight-terminal-utilities-every-os-x-command-line-user-s-1593793109)
