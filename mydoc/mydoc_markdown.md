@@ -877,15 +877,14 @@ puts "Hello World!"
 #### Mathjax
 
 ```
-$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+$$ x = \dfrac{-b \pm \sqrt{b^{2} - 4ac}}{2a} $$
 ```
 
-$$ x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
-
+$$ x = \dfrac{-b \pm \sqrt{b^{2} - 4ac}}{2a} $$
 
 #### Inline Mathjax
 
-The answser is \\(a^2 + b^2 = c^2\\).
+The answser is \\(a^{2} + b^{2} = c^{2}\\).
 
 * inline \\(\dfrac{a}{b}\\) and not inline
 
