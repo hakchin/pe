@@ -1,15 +1,94 @@
----
-title: Markdown
-tags: [tool]
-keywords: "syntax, markdown"
-last_updated: "December 25, 2015"
-summary: "blur blur blur"
-published: true
----
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [Useful Sites](#useful-sites)
+  - [Overview](#overview)
+    - [Philosophy](#philosophy)
+    - [Inline HTML](#inline-html)
+    - [Automatic Escaping for Special Characters](#automatic-escaping-for-special-characters)
+  - [Block Elements](#block-elements)
+    - [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
+    - [Headers](#headers)
+- [This is an H1](#this-is-an-h1)
+  - [This is an H2](#this-is-an-h2)
+    - [Blockquotes](#blockquotes)
+    - [Lists](#lists)
+    - [Code Blocks](#code-blocks)
+    - [Horizontal Rules](#horizontal-rules)
+  - [](#)
+  - [Span Elements](#span-elements)
+    - [Links](#links)
+    - [Emphasis](#emphasis)
+    - [Code](#code)
+    - [Images](#images)
+  - [Miscellaneous](#miscellaneous)
+    - [Automatic Links](#automatic-links)
+    - [Backslash Escapes](#backslash-escapes)
+  - [Markdown Syntax](#markdown-syntax)
+    - [External Image](#external-image)
+    - [External Video](#external-video)
+    - [Bloging with code snippet:](#bloging-with-code-snippet)
+      - [Plain Code](#plain-code)
+      - [Code with Language](#code-with-language)
+    - [MathJax in Markdown](#mathjax-in-markdown)
+      - [Mathjax](#mathjax)
+      - [Inline Mathjax](#inline-mathjax)
+      - [mathjax example](#mathjax-example)
+    - [Configuration](#configuration)
+    - [Table Example](#table-example)
+    - [Table Example by Hakchin](#table-example-by-hakchin)
+      - [1년 이내에 이루고 싶은 10가지 목표 (2017년)](#1%EB%85%84-%EC%9D%B4%EB%82%B4%EC%97%90-%EC%9D%B4%EB%A3%A8%EA%B3%A0-%EC%8B%B6%EC%9D%80-10%EA%B0%80%EC%A7%80-%EB%AA%A9%ED%91%9C-2017%EB%85%84)
+  - [markdown-uml](#markdown-uml)
+    - [Reference Sites](#reference-sites)
+    - [UML Diagram의 종류](#uml-diagram%EC%9D%98-%EC%A2%85%EB%A5%98)
+    - [plantuml](#plantuml)
+      - [plantuml-class](#plantuml-class)
+      - [관계 (Relationship)](#%EA%B4%80%EA%B3%84-relationship)
+      - [plantuml-sequence](#plantuml-sequence)
+      - [plantuml-component](#plantuml-component)
+      - [plantuml-sequence](#plantuml-sequence-1)
+      - [Trouble Shooting](#trouble-shooting)
+  - [R Markdown](#r-markdown)
+    - [Getting Started](#getting-started)
+    - [markdown cheatsheet](#markdown-cheatsheet)
+    - [markdown at atom](#markdown-at-atom)
+    - [preview](#preview)
+    - [R Markdown 따라하기](#r-markdown-%EB%94%B0%EB%9D%BC%ED%95%98%EA%B8%B0)
+    - [참조 문서](#%EC%B0%B8%EC%A1%B0-%EB%AC%B8%EC%84%9C)
+    - [R 화면에서](#r-%ED%99%94%EB%A9%B4%EC%97%90%EC%84%9C)
+    - [Key Formatting Constructs](#key-formatting-constructs)
+      - [Emphasis](#emphasis-1)
+      - [Superscripts](#superscripts)
+      - [Lists](#lists-1)
+        - [Unordered](#unordered)
+        - [Ordered](#ordered)
+      - [Block Quotes](#block-quotes)
+      - [Displaying Blocks of Code Without Evaluating](#displaying-blocks-of-code-without-evaluating)
+      - [Displaying R Code Inline in a Sentence](#displaying-r-code-inline-in-a-sentence)
+      - [Evaluating and Inserting R Code in a Sentence](#evaluating-and-inserting-r-code-in-a-sentence)
+    - [Typesetting Equations](#typesetting-equations)
+      - [Inline vs. Display Material](#inline-vs-display-material)
+    - [Some LaTeX Basics](#some-latex-basics)
+      - [Subscripts and Superscripts](#subscripts-and-superscripts)
+      - [Square Roots](#square-roots)
+      - [Fractions](#fractions)
+      - [Summation Expressions](#summation-expressions)
+      - [Self-Sizing Parentheses](#self-sizing-parentheses)
+      - [Greek Letters](#greek-letters)
+      - [Special Symbols](#special-symbols)
+      - [Special Functions](#special-functions)
+      - [Matrices](#matrices)
+    - [Hakchin's](#hakchins)
+  - [](#-1)
+  - [Overview](#overview-1)
+  - [Getting started](#getting-started)
+  - [PDF Download Option for Help Material](#pdf-download-option-for-help-material)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Useful Sites
 * [Daringfireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
-* [DocToc](https://github.com/thlorenz/doctoc)
 
 ## Overview
 
