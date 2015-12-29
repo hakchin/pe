@@ -20,7 +20,7 @@ summary: "This theme uses pages only, not posts. You need to make sure your page
 
 Let a &gt; 0, b &gt; 0.
 
-* 등차중항 - a arithmetical mean
+* 등차중항 - an arithmetical mean
 \\[ A = \dfrac{a + b}{2} \\]
 
 * 등비중항 - a mean proportional
