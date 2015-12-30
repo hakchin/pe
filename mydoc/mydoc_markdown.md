@@ -11,6 +11,7 @@ published: true
 * [Jekyll Documentation Theme](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html)
 * [Daringfireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
 * [DocToc](https://github.com/thlorenz/doctoc)
+* [HTML to Markdown Converter](https://domchristie.github.io/to-markdown/)
 
 ## Overview
 
