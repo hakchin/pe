@@ -11,5 +11,9 @@ weight: 1
 ## Reference Sites
 
 * [데이터베이스일반](http://fstory97.blog.me/70048612175)
+* [데이터베이스 회복 기법](http://blog.naver.com/blueunivone/120060498769)
 
-나는 김학진입니다.
+
+
+
+
