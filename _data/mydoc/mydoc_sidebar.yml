@@ -163,21 +163,13 @@ entries:
       version: all
       output: web, pdf
 
-  - title: High School Math
+  - title: 이것저것
     audience: writers, designers
     platform: all
     product: all
     version: all
     output: web, pdf
     items:
-    - title: 고교수학
-      url: /mydoc/mydoc_high_school_math.html
-      audience: writers, designers
-      platform: all
-      product: all
-      version: all
-      output: web, pdf
-
     - title: WebStorm Text Editor
       url: /mydoc/mydoc_webstorm_text_editor.html
       audience: writers, designers

@@ -1,7 +1,7 @@
 ---
 title: 2. 소프트웨어공학
 tags: [getting_started]
-keywords: audit, project, management
+keywords: swe,engineering,software
 last_updated: November 30, 2015
 summary: "Computer Science Study"
 series: "Getting Started"
