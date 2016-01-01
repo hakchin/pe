@@ -61,7 +61,7 @@ entries:
       output: web, pdf
 
     - title: golang
-      url: /mydoc/mydoc_golang.html
+      url: /mydoc/mydoc_lang_golang.html
       audience: writers, designers
       platform: all
       product: all
