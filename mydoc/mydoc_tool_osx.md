@@ -107,11 +107,21 @@ emptyfile.txt  kkk.txt
 ## Network
 
 ## Linux Commands
-  * which : file 의 위치를 찾아준다.
-  * ifdown
+* which : file 의 위치를 찾아준다.
+* ifdown
 
 ```
 ifdown eth0
+```
+
+* find
+
+
+```
+[root@h460c6c50 /]# find . -name kim.out
+ 
+[root@h460c6c50 /]# echo $?
+0   --> This case is OK.
 ```
 
 ## System

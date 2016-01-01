@@ -16,7 +16,7 @@ published: true
 
 #### Table
 
-```
+```html
 <table>
   <tr>
     <th>blur blur</td>
@@ -27,8 +27,8 @@ published: true
     <td>객체를 생성하는 책임의 일부를 서브클래스가 담당</td>
   </tr>
   <tr>
-    <td class="tg-mtwr">객체 패턴</td>
-    <td class="tg-yw4l">객체를 생성하는 책임을 다른 객체에게 위임</td>
+    <td>객체 패턴</td>
+    <td>객체를 생성하는 책임을 다른 객체에게 위임</td>
   </tr>
 </table>
 ```
@@ -43,8 +43,8 @@ published: true
     <td>객체를 생성하는 책임의 일부를 서브클래스가 담당</td>
   </tr>
   <tr>
-    <td class="tg-mtwr">객체 패턴</td>
-    <td class="tg-yw4l">객체를 생성하는 책임을 다른 객체에게 위임</td>
+    <td>객체 패턴</td>
+    <td>객체를 생성하는 책임을 다른 객체에게 위임</td>
   </tr>
 </table>
 
