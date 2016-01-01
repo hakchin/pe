@@ -12,7 +12,7 @@ site_title: Jekyll theme for designers
 project_folder: mydoc
 company_name: Your company
 footer_image_location: ../common_images/company_logo.png
-github_editme_path: hakchin/pe/edit/reviews
+github_editme_path: tomjohnson1492/documentation-theme-jekyll/edit/reviews
 disqus_shortname: idrbwjekyll
 # variables
 
@@ -31,7 +31,7 @@ exclude:
 
 # same for all
 host: 127.0.0.1
-feedback_email: hakchin@gmail.com
+feedback_email: tomjohnson1492@gmail.com
 
 markdown: redcarpet
 
