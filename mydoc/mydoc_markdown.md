@@ -1,6 +1,6 @@
 ---
 title: Markdown
-tags: [tool]
+tags: [navigation]
 keywords: "syntax, markdown"
 last_updated: "December 25, 2015"
 summary: "blur blur blur"
@@ -920,12 +920,17 @@ The only thing to look out for is the escaping of the backslash when using markd
 
 
 ### Table Example
+```
+| Tables | Are   | Cool  |
+| ------ |:-----:| -----:|
+| col 1  | Hello | $1600 |
+| col 2  | Hello | $12   |
+```
 
-| Tables | Are | Cool |
-| ------------- |:-------------:| -----:|
-| col 1 | Hello | $1600 |
-| col 2 | Hello | $12 |
-| col 3 | Hello | $1 |
+| Tables | Are   | Cool  |
+| ------ |:-----:| -----:|
+| col 1  | Hello | $1600 |
+| col 2  | Hello | $12   |
 
 ### Table Example by Hakchin
 
@@ -1325,20 +1330,6 @@ This is from http://stackoverflow.com/questions/4823468/store-comments-in-markdo
 ```
 
 ***
-
-
----
-
-## Overview 
-
-
-## Getting started
-
-To get started, see these three topics:
-
-1. {{site.data.mydoc.mydoc_urls.mydoc_getting_started.link}}
-2. {{site.data.mydoc.mydoc_urls.mydoc_configuration_settings.link}}
-3. {{site.data.mydoc.mydoc_urls.mydoc_adding_new_projects.link}}
 
 ## PDF Download Option for Help Material
 

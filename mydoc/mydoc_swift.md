@@ -1,6 +1,6 @@
 ---
 title: Swift Language
-tags: 
+tags:
   - "getting_started"
 keywords: "swift, language"
 last_updated: "December 25, 2015"
@@ -11,6 +11,9 @@ published: true
 Doc Writer <sn2ro@me.com>
 
 An introduction to [swift](https://developer.apple.com/swift/ "Title").
+
+## Reference Sites
+* [Swift Tutorial](http://www.tutorialspoint.com/swift/index.htm)
 
 ## Basic
 
