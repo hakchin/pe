@@ -53,7 +53,7 @@ entries:
       output: web, pdf
 
     - title: Markdown
-      url: /mydoc/mydoc_markdown.html
+      url: /mydoc/mydoc_lang_markdown.html
       audience: writers, designers
       platform: all
       product: all
