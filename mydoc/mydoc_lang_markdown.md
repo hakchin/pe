@@ -13,6 +13,7 @@ published: true
 * [DocToc](https://github.com/thlorenz/doctoc)
 * [HTML to Markdown Converter](https://domchristie.github.io/to-markdown/)
 
+
 ## Overview
 
 ### Philosophy
@@ -985,15 +986,15 @@ Timely: 시기 적절하게 기한을 정한다.
 
 #### plantuml-class
 
-{% gist hakchin/4ac3a92da75543b5daac %}
+<script src="https://gist.github.com/hakchin/4ac3a92da75543b5daac.js"></script>
 
 ![](http://uml.mvnsearch.org/gist/4ac3a92da75543b5daac)
 
-{% gist hakchin/6e753085ca869f8806c0 %}
+<script src="https://gist.github.com/hakchin/6e753085ca869f8806c0.js"></script>
 
 ![](http://uml.mvnsearch.org/gist/6e753085ca869f8806c0)
 
-{% gist hakchin/21575ff0f534fc065b66 %}
+<script src="https://gist.github.com/hakchin/21575ff0f534fc065b66.js"></script>
 
 ![](http://uml.mvnsearch.org/gist/21575ff0f534fc065b66)
 
@@ -1007,14 +1008,14 @@ Timely: 시기 적절하게 기한을 정한다.
 
 #### plantuml-sequence
 
-{% gist hakchin/a29ed23af7aa58a6764c %}
+<script src="https://gist.github.com/hakchin/a29ed23af7aa58a6764c.js"></script>
 
 ![](http://uml.mvnsearch.org/gist/a29ed23af7aa58a6764c)
 
 
 #### plantuml-component
 
-{% gist hakchin/1354c4215962341b7afa %}
+<script src="https://gist.github.com/hakchin/1354c4215962341b7afa.js"></script>
 
 ![](http://uml.mvnsearch.org/gist/1354c4215962341b7afa)
 
@@ -1022,7 +1023,7 @@ Timely: 시기 적절하게 기한을 정한다.
 
 #### plantuml-sequence
 
-{% gist hakchin/0c6796799c1c9a50ae0e %}
+<script src="https://gist.github.com/hakchin/0c6796799c1c9a50ae0e.js"></script>
 ![http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e](http://uml.mvnsearch.org/gist/0c6796799c1c9a50ae0e)
 
 
