@@ -10,12 +10,10 @@ summary: "This part is a just test"
 
 <iframe width="425" height="350" src="https://www.youtube.com/embed/CF9S4QZuV30" frameborder="0" allowfullscreen></iframe>
 
-## Doc Structure
-1. jfdsjfd
-1. jkjkjkk
 ## Study
 
 ### Tutorial
+* [Go App Engine Tutorial](https://cloud.google.com/appengine/docs/go/)
 * [beego Tutorial](http://gauryan.blogspot.kr/2015/10/beego-tutorial.html)
 * [Getting Started With Go](http://spf13.com/presentation/first-go-app)
 
