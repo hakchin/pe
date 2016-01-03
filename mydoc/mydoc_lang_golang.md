@@ -51,6 +51,18 @@ export PATH=$PATH:$GOAPPENGINEPATH
 
 <img src="https://docs.google.com/drawings/d/1BgiB4JUxpSfQwWlF0S9D4JQbMF9wpIQIcEqmlwgffWg/pub?w=480&amp;h=711">
 
+
+### Hakchin go app engine 실행 방법
+
+```
+$ goapp serve appengine-try-go-master/
+```
+
+#### for the go app engine
+
+* [goapp serve](https://cloud.google.com/appengine/docs/go/tools/devserver), for running a local development server
+* [goapp deploy](https://cloud.google.com/appengine/docs/go/tools/uploadinganapp), for uploading your app to App Engine
+
 ## algorithm
 * [quick sort](https://github.com/golang/go/commit/6f6b2f04b5c342edf70944e60c9c9a30eef5a9eb)
 
