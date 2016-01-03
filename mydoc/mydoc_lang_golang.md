@@ -10,14 +10,12 @@ summary: "This part is a just test"
 
 <iframe width="425" height="350" src="https://www.youtube.com/embed/CF9S4QZuV30" frameborder="0" allowfullscreen></iframe>
 
-## Study
 
-### Tutorial
+## Reference Sites
+* [순수 Go로 만드는 게시판](http://opentutorials.org/module/1447)
 * [Go App Engine Tutorial](https://cloud.google.com/appengine/docs/go/)
 * [beego Tutorial](http://gauryan.blogspot.kr/2015/10/beego-tutorial.html)
 * [Getting Started With Go](http://spf13.com/presentation/first-go-app)
-
-### Books
 * [dariubs/GoBooks](https://github.com/dariubs/GoBooks)
 
 ## Installation
@@ -61,14 +59,14 @@ $ goapp serve appengine-try-go-master/
 #### for the go app engine
 
 * [goapp serve](https://cloud.google.com/appengine/docs/go/tools/devserver), for running a local development server
+  * $ goapp serve appengine-try-go-master/
 * [goapp deploy](https://cloud.google.com/appengine/docs/go/tools/uploadinganapp), for uploading your app to App Engine
+  * $ goapp deploy -application ppoppo-1110 app.yaml
 
 ## algorithm
 * [quick sort](https://github.com/golang/go/commit/6f6b2f04b5c342edf70944e60c9c9a30eef5a9eb)
 
 
-## Reference Sites
-* [순수 Go로 만드는 게시판](http://opentutorials.org/module/1447)
 
 
 ## Source Code by Hakchin
