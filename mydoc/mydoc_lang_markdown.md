@@ -7,7 +7,7 @@ summary: "blur blur blur"
 published: true
 ---
 
-## Useful Sites
+## Reference Sites
 * [Jekyll Documentation Theme](http://idratherbewriting.com/documentation-theme-jekyll/mydoc/home.html)
 * [Daringfireball Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
 * [DocToc](https://github.com/thlorenz/doctoc)
