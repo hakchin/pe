@@ -164,7 +164,7 @@ Markdown uses email-style &gt; characters for blockquoting. If you’re familiar
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 > consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 > Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-> 
+>
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 > id sem consectetuer libero luctus adipiscing.
 ```
@@ -1334,9 +1334,8 @@ This is from http://stackoverflow.com/questions/4823468/store-comments-in-markdo
 
 ## PDF Download Option for Help Material
 
-If you would like to download this help file as a PDF, you can do so here. The PDF is comprehensive of all the content in the online help.   
+If you would like to download this help file as a PDF, you can do so here. The PDF is comprehensive of all the content in the online help.
 
 <a target="_blank" class="noCrossRef" href="files/{{site.pdf_file_name}}"><button type="button" class="btn btn-default" aria-label="Left Align"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span> PDF Download</button></a>
 
-The PDF contains a timestamp in the header indicating when it was last generated. 
-
+The PDF contains a timestamp in the header indicating when it was last generated.
